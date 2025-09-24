@@ -171,40 +171,50 @@ export default function Portfolio() {
 
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="bg-muted p-3 rounded border">
-                  <h3 className="font-bold text-secondary mb-2">💻 Programming</h3>
+                  <h3 className="font-bold mb-2 text-black-600">💻 Programming</h3>
                   <div className="flex flex-wrap gap-1">
-                    <Badge>JavaScript</Badge>
-                    <Badge>TypeScript</Badge>
                     <Badge>Python</Badge>
                     <Badge>Java</Badge>
+                    <Badge>C</Badge>
                     <Badge>C++</Badge>
+                    <Badge>C#</Badge>
                   </div>
                 </div>
 
                 <div className="bg-muted p-3 rounded border">
-                  <h3 className="font-bold text-secondary mb-2">🌐 Web Development</h3>
+                  <h3 className="font-bold text-black-600 mb-2">🌐 Web Development</h3>
                   <div className="flex flex-wrap gap-1">
                     <Badge>React</Badge>
                     <Badge>Next.js</Badge>
                     <Badge>Node.js</Badge>
                     <Badge>Express</Badge>
                     <Badge>Tailwind CSS</Badge>
+                    <Badge>TypeScript</Badge>
                   </div>
                 </div>
 
                 <div className="bg-muted p-3 rounded border">
-                  <h3 className="font-bold text-secondary mb-2">🗄️ Database & Tools</h3>
+                  <h3 className="font-bold text-black-600 mb-2">🌐 Frameworks</h3>
                   <div className="flex flex-wrap gap-1">
-                    <Badge>MongoDB</Badge>
-                    <Badge>PostgreSQL</Badge>
-                    <Badge>Git</Badge>
-                    <Badge>Docker</Badge>
-                    <Badge>AWS</Badge>
+                    <Badge>Django</Badge>
+                    <Badge>.NET</Badge>
+                    <Badge>Flask</Badge>
+                    <Badge>React Native</Badge>
                   </div>
                 </div>
 
                 <div className="bg-muted p-3 rounded border">
-                  <h3 className="font-bold text-secondary mb-2">🎨 Design</h3>
+                  <h3 className="font-bold text-black-600 mb-2">🗄️ Database & Tools</h3>
+                  <div className="flex flex-wrap gap-1">
+                    <Badge>PostgreSQL</Badge>
+                    <Badge>MySQL</Badge>
+                    <Badge>PowerBI</Badge>
+                    <Badge>Git</Badge>
+                  </div>
+                </div>
+
+                <div className="bg-muted p-3 rounded border">
+                  <h3 className="font-bold text-black-600 mb-2">🎨 Design</h3>
                   <div className="flex flex-wrap gap-1">
                     <Badge>Figma</Badge>
                     <Badge>Adobe Creative Suite</Badge>
@@ -214,7 +224,7 @@ export default function Portfolio() {
                 </div>
               </div>
 
-              <div className="bg-accent/20 p-4 rounded border-2 border-accent">
+              {/* <div className="bg-accent/20 p-4 rounded border-2 border-accent">
                 <h3 className="font-bold text-accent-foreground mb-2">🏆 Recent Achievements</h3>
                 <ul className="text-sm space-y-1">
                   <li>• 1st Place - University Hackathon 2024</li>
@@ -222,7 +232,7 @@ export default function Portfolio() {
                   <li>• Open Source Contributor - 50+ commits</li>
                   <li>• Google Developer Student Club - Vice President</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </WindowsWindow>
         )}
