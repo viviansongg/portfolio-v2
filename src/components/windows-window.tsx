@@ -10,7 +10,7 @@ interface WindowsWindowProps {
   title: string
   children: ReactNode
   className?: string
-  // defaultMinimized?: boolean
+  defaultMinimized?: boolean
   onClose?: () => void
 }
 
@@ -18,7 +18,7 @@ export function WindowsWindow({
   title,
   children,
   className = "",
-  defaultMinimized = false,
+  // defaultMinimized = false,
   onClose,
 }: WindowsWindowProps) {
   const [isMaximized, setIsMaximized] = useState(false)
