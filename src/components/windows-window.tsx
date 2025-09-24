@@ -10,7 +10,7 @@ interface WindowsWindowProps {
   title: string
   children: ReactNode
   className?: string
-  defaultMinimized?: boolean
+  // defaultMinimized?: boolean
   onClose?: () => void
 }
 
