@@ -21,7 +21,6 @@ export function WindowsWindow({
   defaultMinimized = false,
   onClose,
 }: WindowsWindowProps) {
-  const [isMinimized, setIsMinimized] = useState(defaultMinimized)
   const [isMaximized, setIsMaximized] = useState(false)
   const [position, setPosition] = useState({ x: Math.random() * 200 + 50, y: Math.random() * 100 + 50 })
   const [size, setSize] = useState({ width: 400, height: 300 })
